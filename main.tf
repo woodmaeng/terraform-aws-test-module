@@ -1,14 +1,3 @@
-terraform {
-    required_providers {
-        aws = {
-            source  = "hashicorp/aws"
-            version = "~> 3.0"
-        }
-    }
-}
-
-
-
 resource "aws_lambda_function" "hello_world" {
     filename         = "lambda-output/hello_world.zip"
     function_name    = "hello_world"
