@@ -1,0 +1,8 @@
+lambda-output/**
+
+# Ignore Terraform state, cache and other files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.lock.hcl
+*.tfvars
