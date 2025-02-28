@@ -1,4 +1,4 @@
-lambda-output/**
+terraform/lambda-output/**
 
 # Ignore Terraform state, cache and other files
 **/.terraform/*

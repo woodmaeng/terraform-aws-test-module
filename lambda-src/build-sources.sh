@@ -9,7 +9,7 @@ cd hello-world
 npm ci
 
 # If output directory does not exist, create it
-mkdir -p ../../lambda-output
+mkdir -p ../../terraform/lambda-output
 
 # Create the zip file
-zip -r ../../lambda-output/hello_world.zip .
+zip -r ../../terraform/lambda-output/hello_world.zip .
